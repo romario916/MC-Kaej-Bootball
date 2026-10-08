@@ -48,9 +48,9 @@ export const getCartOrderMessage = (
     : "";
 
   return [
-    "Commande ROSA Boutique",
+    "Commande MC Kaej Bootball",
     "",
-    "Bonjour, je souhaite commander les produits suivants chez ROSA Boutique :",
+    "Bonjour, je souhaite commander les produits suivants chez MC Kaej Bootball :",
     "",
     products,
     "",
@@ -81,9 +81,9 @@ export const getProductOrderMessage = (
     : "";
 
   return [
-    "Commande ROSA Boutique",
+    "Commande MC Kaej Bootball",
     "",
-    "Bonjour, je souhaite commander le produit suivant chez ROSA Boutique :",
+    "Bonjour, je souhaite commander le produit suivant chez MC Kaej Bootball :",
     "",
     `• ${item.nom}`,
     `  Marque : ${item.marque}`,
