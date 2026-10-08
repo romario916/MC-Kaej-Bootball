@@ -130,8 +130,8 @@ const CartDrawer = ({
         {/* Header */}
         <header className="flex shrink-0 items-center justify-between bg-black px-5 py-5 text-white">
           <div>
-            <p className="text-sm font-medium text-yellow-400">
-              ROSA Boutique
+            <p className="text-sm font-medium bg-gradient-to-r from-teal-300">
+              MC Kaej Bootball
             </p>
 
             <h2 className="text-lg font-bold">
@@ -186,7 +186,7 @@ const CartDrawer = ({
                   <button
                     type="button"
                     onClick={onClose}
-                    className="mt-6 rounded-xl bg-violet-600 px-5 py-3 text-sm font-bold text-white transition hover:bg-violet-700 focus:outline-none focus:ring-4 focus:ring-violet-200"
+                    className="mt-6 rounded-xl bg-violet-600 px-5 py-3 text-sm font-bold bg-gradient-to-r from-teal-300 transition hover:bg-violet-700 focus:outline-none focus:ring-4 focus:ring-violet-200"
                   >
                     Découvrir la boutique
                   </button>

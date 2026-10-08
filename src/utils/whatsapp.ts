@@ -2,7 +2,7 @@
 import type { CartItem } from "../context/CartContext";
 import type { CustomerInfo } from "../components/boutique/OrderCustomerForm";
 
-const WHATSAPP_NUMBER = "261378911098";
+const WHATSAPP_NUMBER = "261385857955";
 
 export const openWhatsApp = (message: string): void => {
   const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(

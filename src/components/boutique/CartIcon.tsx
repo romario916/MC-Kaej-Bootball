@@ -13,7 +13,7 @@ const CartIcon = ({ onClick }: CartIconProps) => {
       type="button"
       onClick={onClick}
       aria-label={`Ouvrir le panier${totalItems > 0 ? `, ${totalItems} article${totalItems > 1 ? "s" : ""}` : ""}`}
-      className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-violet-600 text-white transition duration-300 hover:scale-105 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 focus:ring-offset-black"
+      className="relative flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-r from-teal-300 text-white transition duration-300 hover:scale-105 hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 focus:ring-offset-black"
     >
       <ShoppingCart size={21} />
 
